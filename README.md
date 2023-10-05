@@ -1,6 +1,12 @@
 # animacy-perception
 
-All datafiles needed to run the training or statistical analyses can be found here: https://osf.io/7xcg9/
+This is the code for the paper "A computational deep learning investigation of animacy perception in the human brain", currently in revision.
+
+The original code was developed by Stefanie Duyck and can be found [here](https://github.com/SDuyck/animacy-perception).
+
+## How to use:
+### Get the data
+All datafiles needed to run the training or statistical analyses can be found [here](https://osf.io/7xcg9/).
 
 *The .pth weight files consist of partial zip files, which need to be downloaded and put back together. 
 
@@ -14,10 +20,10 @@ cat myfolder.tar.gz.part* > myfolder_combined.tar.gz
 bash
 tar xzvf myfolder_combined.tar.gz
 
-## animacy-perception.ipynb
+### animacy-perception.ipynb
 Script consists of 2 parts:
   - First part is to run the primary network training: Finetuning 'Animal bias'
   - Second part is to load a .pth weights file and to extract the image vectors from the output layer with the test set used in the paper
 
-## Animacy-perception-statistics.ipynb
+### Animacy-perception-statistics.ipynb
 Script to redo all the analyses reported in the paper and to display the graphs.
