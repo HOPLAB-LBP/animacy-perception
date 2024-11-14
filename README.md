@@ -1,3 +1,7 @@
+
+
+[![DOI](https://zenodo.org/badge/700855057.svg)](https://doi.org/10.5281/zenodo.14165546)
+
 # animacy-perception
 
 This is the code for the paper "A computational deep learning investigation of animacy perception in the human brain", currently in revision.
